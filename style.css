@@ -19,6 +19,7 @@ section.wraper{
 /* Header part start */
 header{
     display: flex;
+    margin-bottom: 50px;
 }
 .header-part{
 padding: 80px 220px 0 0;
@@ -51,6 +52,36 @@ width: 50%;
 .header-image img{
     width: 100%;
 }
-
-
 /* header part End */
+
+/* Mission part started */
+
+.mission-part h1{
+    text-align: center;
+}
+section.mission-vision-goals{
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
+}
+.mission-vision-goals img{
+    width: 30%;
+}
+
+.box-size{
+    width: 305px;
+    border-radius: 20px;
+    padding: 20px
+}
+
+.mission{
+    background-color:rgb(194, 240, 240);
+}
+.vision{
+    background-color: darkkhaki;
+}
+.goals{
+    background-color: darksalmon;
+}
+
+/* Mission part end */
