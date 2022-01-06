@@ -15,6 +15,7 @@ section.wraper{
     width: 80%;
     margin: 0 auto;
     padding-top: 30px;
+    
 }
 /* Header part start */
 header{
@@ -37,7 +38,7 @@ padding: 80px 220px 0 0;
 }
 .btn{
     padding: 10px 40px;
-    background-color: rgb(245, 134, 7);
+    background-image: linear-gradient(tomato, rgb(180, 45, 21));
     border: none;
     border-radius: 5px;
     font-weight: 900;
@@ -55,7 +56,9 @@ width: 50%;
 /* header part End */
 
 /* Mission part started */
-
+.mission-part{
+    margin-bottom: 70px;
+}
 .mission-part h1{
     text-align: center;
 }
@@ -85,3 +88,42 @@ padding-top: 50px;
 }
 
 /* Mission part end */
+
+/* Develop Part start */
+
+.develop{
+    display: flex;
+    margin-bottom: 100px;
+ 
+}
+.develop-item{
+    width: 50%;
+    padding-left: 2%;
+}
+.develop-item img{
+    width: 80%;
+}
+
+/* Develop part End */
+
+/* Global part start */
+
+.global{
+    display: flex;
+    margin-bottom: 100px;
+}
+/* Global part end */
+/* new copcept part started */
+
+
+/* New concept part end */
+footer{
+    height: 150px;
+    background-color: rgb(75, 66, 66);
+    margin: 5px;
+    text-align: center;
+    padding-top: 30px;
+}
+footer h4{
+    color: white;
+}
