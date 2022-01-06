@@ -21,6 +21,7 @@ section.wraper{
 header{
     display: flex;
     margin-bottom: 50px;
+     
 }
 .header-part{
 padding: 80px 220px 0 0;
@@ -94,11 +95,18 @@ padding-top: 50px;
 .develop{
     display: flex;
     margin-bottom: 100px;
+    
  
+}
+.background-shape{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -50px;
 }
 .develop-item{
     width: 50%;
-    padding-left: 2%;
+    padding-left: 8%;
 }
 .develop-item img{
     width: 80%;
@@ -111,6 +119,12 @@ padding-top: 50px;
 .global{
     display: flex;
     margin-bottom: 100px;
+}
+.background-shape-global{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 /* Global part end */
 /* new copcept part started */
