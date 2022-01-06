@@ -77,6 +77,9 @@ padding-top: 50px;
     border-radius: 20px;
     padding: 20px
 }
+.box-size p{
+    text-align: justify;
+}
 
 .mission{
     background-color:rgb(194, 240, 240);
@@ -112,7 +115,9 @@ padding-top: 50px;
 .develop-item img{
     width: 80%;
 }
-
+.develop-item p{
+    text-align: justify;
+}
 /* Develop part End */
 
 /* Global part start */
@@ -157,4 +162,5 @@ footer{
 }
 footer h4{
     color: white;
+    font-weight: normal;
 }
