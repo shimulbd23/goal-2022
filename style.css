@@ -101,8 +101,9 @@ padding-top: 50px;
 .background-shape{
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: -50px;
+    background-size: 200px;
+    margin-left: -40px;
+    background-position: left;
 }
 .develop-item{
     width: 50%;
@@ -123,8 +124,8 @@ padding-top: 50px;
 .background-shape-global{
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+    background-size: 200px;
+    background-position: right 0% bottom 0%;
 }
 /* Global part end */
 /* new copcept part started */
@@ -142,6 +143,7 @@ section.target h1{
 }
 .subjects-size{
     width:250px;
+    box-shadow: 5px 5px 10px grey;
 }
 
 
